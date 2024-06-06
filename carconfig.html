@@ -6,9 +6,43 @@
 
 </head>
 <body>
+<form action="https://it.bzz.ch/demo/formdata/index.php" method="post">
+
 
 <h1>Fahrzeug-Konfigurator</h1>
+<fieldset>
+<form action="#">
+  <label>Fahrzeugmodell:
+    <select name="fahrzeugmodell" size="5">
+      <option>Modell A</option>
+      <option>Modell B</option>
+      <option>Modell C</option>
+      <option>Modell E</option>
+      <option>Modell F</option>
+    </select>
+  </label>
+</form>
+</fieldset>
+
+  <fieldset>
+<h2>Lackfarben</h2>
+
+  <form>
+    <input type="radio" id="blue" name="Farben" value="blau">
+    <label for="blue"> Rot</label><br>
+    <input type="radio" id="rot" name="Farben" value="rot">
+    <label for="rot"> Blau</label><br>
+    <input type="radio" id="gelb" name="Farben" value="gelb">
+    <label for="gelb"> Gelb</label><br>
+    <input type="radio" for="black" id="black" name="Farben" value="black">
+    <label for="black">Schwarz</label><br>
+  </form>
+  </fieldset>
 
 
+  <button type="submit">Absenden </button>
+
+
+</form>
 </body>
 </html>
